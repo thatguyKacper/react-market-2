@@ -1,7 +1,7 @@
 {
-  "name": "sick-fits-frontend",
+  "name": "react-market-frontend",
   "version": "2.0.0",
-  "description": "Sick Fits! An example React, GraphQL, Next and Apollo",
+  "description": "An example of React, GraphQL, Next and Apollo",
   "main": "index.js",
   "scripts": {
     "dev": "next -p 7777",
@@ -9,7 +9,7 @@
     "start": "next start -p 7777",
     "test": "NODE_ENV=test jest --watch"
   },
-  "author": "",
+  "author": "Kacper Wójtowicz",
   "license": "ISC",
   "dependencies": {
     "@apollo/client": "3.4.0",
@@ -70,7 +70,6 @@
       "./jest.setup.js"
     ]
   },
-  "//": "This is our babel config, I prefer this over a .babelrc file",
   "babel": {
     "env": {
       "development": {
