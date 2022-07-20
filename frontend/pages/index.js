@@ -1,5 +1,3 @@
-import React from 'react';
+import ProductsPage from './products';
 
-export default function IndexPage() {
-  return <p>index</p>;
-}
+export default ProductsPage;
